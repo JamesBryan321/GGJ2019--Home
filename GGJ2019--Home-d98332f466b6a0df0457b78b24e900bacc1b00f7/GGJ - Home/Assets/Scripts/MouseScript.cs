@@ -6,6 +6,7 @@ using UnityEngine.AI;
 public class MouseScript : MonoBehaviour
 {
     public Transform Player;
+    public Transform Trap;
     public AudioClip hurt;
     public float lookRadius = 2f;
 
@@ -22,11 +23,22 @@ public class MouseScript : MonoBehaviour
     void Update() 
     {
         float distance = Vector3.Distance(Player.position, transform.position);
+        float distance1 = Vector3.Distance(Trap.position, transform.position);
 
         if (distance <= lookRadius)
         {
 
             agent.SetDestination(Player.transform.position);
+
+            if (distance <= agent.stoppingDistance)
+            {
+                //Attack the target
+                FaceTarget();
+            }
+        }
+        else if (distance1 <= lookRadius)
+        {
+            agent.SetDestination(Trap.transform.position);
 
             if (distance <= agent.stoppingDistance)
             {

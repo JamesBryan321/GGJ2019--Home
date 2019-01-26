@@ -7,6 +7,10 @@ TagManager:
   - Fire
   - small
   - ladder
+  - Ladder_Top
+  - Ladder_Bottom
+  - Trap
+  - Mouse
   layers:
   - Default
   - TransparentFX
