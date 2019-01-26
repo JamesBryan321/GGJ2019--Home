@@ -8,14 +8,16 @@ public class MouseScript : MonoBehaviour
     public GameObject Player;
     public AudioClip hurt;
 
+    private NavMeshAgent agent;
+
     void Start()
     {
         GetComponent<Animator>();
-        GetComponent<NavMeshAgent>();
+        agent = GetComponent<NavMeshAgent>();
         //Player.GetComponent<Die>().Death();
     }
 
-   /* private void OnTriggerEnter(Collider other)
+    private void OnTriggerEnter(Collider other)
     {
         if (other.tag == "Player")
         {
@@ -29,6 +31,6 @@ public class MouseScript : MonoBehaviour
         Debug.Log("Attack");
         
         //Player.Die.Death();
-        //NavMeshAgent.SetDestination(Player.transform.position);
-    }*/
+        agent.SetDestination(Player.transform.position);
+    }
 }
