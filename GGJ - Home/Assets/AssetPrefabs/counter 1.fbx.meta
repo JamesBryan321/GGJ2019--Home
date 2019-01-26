@@ -1,24 +1,63 @@
 fileFormatVersion: 2
-guid: d108c2c09c2a24d3f8b5434109083574
+guid: 87646d674640d4c669442eb3a7b2546e
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
-    100000: Cylinder
+    100000: Camera
     100002: //RootNode
-    100004: Torus
-    400000: Cylinder
+    100004: Cube
+    100006: Cube.001
+    100008: Cube.002
+    100010: Cube.003
+    100012: Cube.004
+    100014: Cube.005
+    100016: Cube.006
+    100018: Cube.007
+    100020: Cube.008
+    100022: Lamp
+    400000: Camera
     400002: //RootNode
-    400004: Torus
-    2100000: unnamed
-    2300000: Cylinder
-    2300002: Torus
-    3300000: Cylinder
-    3300002: Torus
-    4300000: Torus
-    4300002: Cylinder
-    7400000: Default Take
-    9500000: //RootNode
-    2186277476908879412: ImportLogs
+    400004: Cube
+    400006: Cube.001
+    400008: Cube.002
+    400010: Cube.003
+    400012: Cube.004
+    400014: Cube.005
+    400016: Cube.006
+    400018: Cube.007
+    400020: Cube.008
+    400022: Lamp
+    2000000: Camera
+    2100000: No Name
+    2100002: Material
+    2300000: Cube
+    2300002: Cube.001
+    2300004: Cube.002
+    2300006: Cube.003
+    2300008: Cube.004
+    2300010: Cube.005
+    2300012: Cube.006
+    2300014: Cube.007
+    2300016: Cube.008
+    3300000: Cube
+    3300002: Cube.001
+    3300004: Cube.002
+    3300006: Cube.003
+    3300008: Cube.004
+    3300010: Cube.005
+    3300012: Cube.006
+    3300014: Cube.007
+    3300016: Cube.008
+    4300000: Cube.008
+    4300002: Cube.007
+    4300004: Cube.006
+    4300006: Cube.005
+    4300008: Cube.004
+    4300010: Cube.003
+    4300012: Cube.002
+    4300014: Cube.001
+    4300016: Cube
+    10800000: Lamp
   externalObjects: {}
   materials:
     importMaterials: 1
@@ -72,7 +111,7 @@ ModelImporter:
     secondaryUVPackMargin: 4
     useFileScale: 1
     previousCalculatedGlobalScale: 1
-    hasPreviousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
@@ -99,7 +138,7 @@ ModelImporter:
     hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 2
+  animationType: 0
   humanoidOversampling: 1
   additionalBone: 0
   userData: 
