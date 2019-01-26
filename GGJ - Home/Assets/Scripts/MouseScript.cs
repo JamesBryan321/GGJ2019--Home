@@ -24,6 +24,6 @@ public class MouseScript : MonoBehaviour
 
     public void Attack()
     {
-        NavMeshAgent.SetDestination(Player.transform.position);
+        //NavMeshAgent.SetDestination(Player.transform.position);
     }
 }
