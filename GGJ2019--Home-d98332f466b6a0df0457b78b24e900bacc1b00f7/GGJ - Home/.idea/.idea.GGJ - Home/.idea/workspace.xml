@@ -10,11 +10,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/PlayerScript.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="405">
-              <caret line="30" column="50" lean-forward="true" selection-start-line="30" selection-start-column="50" selection-end-line="30" selection-end-column="50" />
+              <caret line="30" column="50" selection-start-line="30" selection-start-column="50" selection-end-line="30" selection-end-column="50" />
               <folding>
                 <marker date="1548539906401" expanded="false" signature="6:100" ph="..." />
                 <marker date="1548539906401" expanded="true" signature="193:756" ph="{...}" />
@@ -22,6 +22,23 @@
                 <marker date="1548539906401" expanded="true" signature="455:476" ph="{...}" />
                 <marker date="1548539906401" expanded="true" signature="516:736" ph="{...}" />
                 <marker date="1548539906401" expanded="true" signature="567:730" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/MouseScript.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="540">
+              <caret line="36" selection-start-line="36" selection-end-line="36" />
+              <folding>
+                <marker date="1548540282593" expanded="true" signature="6:100" ph="..." />
+                <marker date="1548540282593" expanded="true" signature="142:694" ph="{...}" />
+                <marker date="1548540282593" expanded="true" signature="252:390" ph="{...}" />
+                <marker date="1548540282593" expanded="true" signature="439:528" ph="{...}" />
+                <marker date="1548540282593" expanded="true" signature="480:522" ph="{...}" />
+                <marker date="1548540282593" expanded="true" signature="555:692" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -103,10 +120,10 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/Scripts/Die.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/MouseScript.cs" />
         <option value="$PROJECT_DIR$/Assets/Standard Assets/Characters/FirstPersonCharacter/Scripts/FirstPersonController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerScript.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/FirstPersonController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MouseScript.cs" />
       </list>
     </option>
   </component>
@@ -115,7 +132,7 @@
       <facet id="riderModule/invalid/Default Android Facet" />
     </ignored-facets>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="950" />
     <option name="width" value="980" />
     <option name="height" value="1040" />
@@ -181,12 +198,12 @@
       <updated>1548517071373</updated>
       <workItem from="1548517090860" duration="750000" />
       <workItem from="1548523009963" duration="3189000" />
-      <workItem from="1548532192954" duration="3124000" />
+      <workItem from="1548532192954" duration="3777000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7063000" />
+    <option name="totallyTimeSpent" value="7716000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -263,19 +280,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/MouseScript.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="28" column="28" selection-start-line="28" selection-start-column="28" selection-end-line="28" selection-end-column="28" />
-          <folding>
-            <marker date="1548531496625" expanded="false" signature="6:100" ph="..." />
-            <marker date="1548531496625" expanded="true" signature="142:666" ph="{...}" />
-            <marker date="1548531496625" expanded="true" signature="219:349" ph="{...}" />
-            <marker date="1548531496625" expanded="true" signature="354:664" ph="/* private void OnTriggerEnter(Collider other) ... */" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Standard Assets/Characters/FirstPersonCharacter/Scripts/FirstPersonController.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -345,7 +349,7 @@
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/PlayerScript.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
-          <caret line="30" column="50" lean-forward="true" selection-start-line="30" selection-start-column="50" selection-end-line="30" selection-end-column="50" />
+          <caret line="30" column="50" selection-start-line="30" selection-start-column="50" selection-end-line="30" selection-end-column="50" />
           <folding>
             <marker date="1548539906401" expanded="false" signature="6:100" ph="..." />
             <marker date="1548539906401" expanded="true" signature="193:756" ph="{...}" />
@@ -353,6 +357,21 @@
             <marker date="1548539906401" expanded="true" signature="455:476" ph="{...}" />
             <marker date="1548539906401" expanded="true" signature="516:736" ph="{...}" />
             <marker date="1548539906401" expanded="true" signature="567:730" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/MouseScript.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+          <folding>
+            <marker date="1548540282593" expanded="true" signature="6:100" ph="..." />
+            <marker date="1548540282593" expanded="true" signature="142:694" ph="{...}" />
+            <marker date="1548540282593" expanded="true" signature="252:390" ph="{...}" />
+            <marker date="1548540282593" expanded="true" signature="439:528" ph="{...}" />
+            <marker date="1548540282593" expanded="true" signature="480:522" ph="{...}" />
+            <marker date="1548540282593" expanded="true" signature="555:692" ph="{...}" />
           </folding>
         </state>
       </provider>
