@@ -6,11 +6,13 @@ using UnityEngine.AI;
 public class MouseScript : MonoBehaviour
 {
     [SerializeField] GameObject Player;
+    [SerializeField] AudioSource hurt;
 
     void Start()
     {
         GetComponent<Animator>();
         GetComponent<NavMeshAgent>();
+        //Player.GetComponent<Die>().Death();
     }
 
     private void OnTriggerEnter(Collider other)
@@ -24,6 +26,9 @@ public class MouseScript : MonoBehaviour
 
     public void Attack()
     {
-        NavMeshAgent.SetDestination(Player.transform.position);
+        Debug.Log("Attack");
+        AudioSource.Play();
+        //Player.Die.Death();
+        //NavMeshAgent.SetDestination(Player.transform.position);
     }
 }

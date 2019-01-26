@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ContentModelStore">
     <e p="C:\Users\shane\.Rider2018.3\system\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\shane\.Rider2018.3\system\resharper-host\local\Transient\ReSharperHost\v183\SolutionCaches\_GGJ - Home.1246723936.00" t="ExcludeRecursive" />
-    <e p="C:\Users\shane\Documents\GitHub\GGJ2019--Home\GGJ - Home" t="IncludeRecursive">
+    <e p="C:\Users\shane\.Rider2018.3\system\resharper-host\local\Transient\ReSharperHost\v183\SolutionCaches\_GGJ - Home.-1362593498.00" t="ExcludeRecursive" />
+    <e p="C:\Users\shane\Documents\GitHub\GGJ2019--Home\GGJ2019--Home-d98332f466b6a0df0457b78b24e900bacc1b00f7\GGJ - Home" t="IncludeRecursive">
       <e p="Assembly-CSharp-Editor-firstpass.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp-firstpass.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
@@ -11,6 +11,7 @@
         <e p="Scripts" t="Include">
           <e p="Die.cs" t="Include" />
           <e p="MouseScript.cs" t="Include" />
+          <e p="PlayerScript.cs" t="Include" />
         </e>
         <e p="Standard Assets" t="Include">
           <e p="Cameras" t="Include">

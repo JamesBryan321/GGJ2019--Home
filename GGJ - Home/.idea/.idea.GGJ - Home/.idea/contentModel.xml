@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\shane\.Rider2018.3\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\shane\.Rider2018.3\system\resharper-host\local\Transient\ReSharperHost\v183\SolutionCaches\_GGJ - Home.1246723936.00" t="ExcludeRecursive" />
+    <e p="C:\Users\shane\Documents\GitHub\GGJ2019--Home\GGJ - Home" t="IncludeFlat">
+      <e p="GGJ - Home.sln" t="IncludeFlat" />
+      <e p="Library" t="ExcludeRecursive" />
+      <e p="Temp" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>
