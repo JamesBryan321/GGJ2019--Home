@@ -29,12 +29,12 @@
             <state relative-caret-position="390">
               <caret line="26" column="10" selection-start-line="26" selection-start-column="10" selection-end-line="26" selection-end-column="10" />
               <folding>
-                <marker date="1548518411207" expanded="true" signature="6:78" ph="..." />
-                <marker date="1548518411207" expanded="true" signature="142:531" ph="{...}" />
-                <marker date="1548518411207" expanded="true" signature="202:286" ph="{...}" />
-                <marker date="1548518411207" expanded="true" signature="335:424" ph="{...}" />
-                <marker date="1548518411207" expanded="true" signature="376:418" ph="{...}" />
-                <marker date="1548518411207" expanded="true" signature="451:529" ph="{...}" />
+                <marker date="1548519169472" expanded="true" signature="6:78" ph="..." />
+                <marker date="1548519169472" expanded="true" signature="142:531" ph="{...}" />
+                <marker date="1548519169472" expanded="true" signature="202:286" ph="{...}" />
+                <marker date="1548519169472" expanded="true" signature="335:424" ph="{...}" />
+                <marker date="1548519169472" expanded="true" signature="376:418" ph="{...}" />
+                <marker date="1548519169472" expanded="true" signature="451:529" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -75,7 +75,7 @@
       <facet id="riderModule/invalid/Default Android Facet" />
     </ignored-facets>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="950" />
     <option name="width" value="979" />
     <option name="height" value="1040" />
@@ -139,12 +139,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1548517071373</updated>
-      <workItem from="1548517090860" duration="1297000" />
+      <workItem from="1548517090860" duration="1861000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1297000" />
+    <option name="totallyTimeSpent" value="1861000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -234,12 +234,12 @@
         <state relative-caret-position="390">
           <caret line="26" column="10" selection-start-line="26" selection-start-column="10" selection-end-line="26" selection-end-column="10" />
           <folding>
-            <marker date="1548518411207" expanded="true" signature="6:78" ph="..." />
-            <marker date="1548518411207" expanded="true" signature="142:531" ph="{...}" />
-            <marker date="1548518411207" expanded="true" signature="202:286" ph="{...}" />
-            <marker date="1548518411207" expanded="true" signature="335:424" ph="{...}" />
-            <marker date="1548518411207" expanded="true" signature="376:418" ph="{...}" />
-            <marker date="1548518411207" expanded="true" signature="451:529" ph="{...}" />
+            <marker date="1548519169472" expanded="true" signature="6:78" ph="..." />
+            <marker date="1548519169472" expanded="true" signature="142:531" ph="{...}" />
+            <marker date="1548519169472" expanded="true" signature="202:286" ph="{...}" />
+            <marker date="1548519169472" expanded="true" signature="335:424" ph="{...}" />
+            <marker date="1548519169472" expanded="true" signature="376:418" ph="{...}" />
+            <marker date="1548519169472" expanded="true" signature="451:529" ph="{...}" />
           </folding>
         </state>
       </provider>

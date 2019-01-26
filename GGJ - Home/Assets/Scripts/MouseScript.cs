@@ -5,7 +5,7 @@ using UnityEngine.AI;
 
 public class MouseScript : MonoBehaviour
 {
-    [SerializeField] GameObject Player;
+    [SerializeField] GameObject player;
 
     void Start()
     {
@@ -24,6 +24,6 @@ public class MouseScript : MonoBehaviour
 
     public void Attack()
     {
-        //NavMeshAgent.SetDestination(Player.transform.position);
+        //NavMeshAgent.SetDestination(player.transform.position);
     }
 }
