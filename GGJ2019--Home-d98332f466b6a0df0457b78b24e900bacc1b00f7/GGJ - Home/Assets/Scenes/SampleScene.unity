@@ -6597,8 +6597,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4aaae7d6584c3294bb597781d6f56bf8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 0}
-  hurt: {fileID: 0}
+  Player: {fileID: 723964670}
+  hurt: {fileID: 8300000, guid: 7f354fbd7f265974c94e5f15b7bd6675, type: 3}
 --- !u!136 &1309873833
 CapsuleCollider:
   m_ObjectHideFlags: 0
