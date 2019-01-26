@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using Ladder.Scripts;
 using UnityEngine;
 using UnityStandardAssets.Characters.FirstPerson;
 
