@@ -5,30 +5,50 @@ using UnityEngine.AI;
 
 public class MouseScript : MonoBehaviour
 {
-    public GameObject Player;
+    public Transform Player;
     public AudioClip hurt;
+    public float lookRadius = 2f;
+
+    public NavMeshAgent agent;
 
     void Start()
     {
         GetComponent<Animator>();
-        GetComponent<NavMeshAgent>();
+        agent = GetComponent<NavMeshAgent>();
         //Player.GetComponent<Die>().Death();
+
     }
 
-   /* private void OnTriggerEnter(Collider other)
+    void Update() 
     {
-        if (other.tag == "Player")
+        float distance = Vector3.Distance(Player.position, transform.position);
+
+        if (distance <= lookRadius)
         {
-            Attack();
+
+            agent.SetDestination(Player.transform.position);
+
+            if (distance <= agent.stoppingDistance)
+            {
+                //Attack the target
+                FaceTarget();
+            }
         }
+    
     }
 
 
-    public void Attack()
+    /*public void Attack()
     {
         Debug.Log("Attack");
         
         //Player.Die.Death();
-        //NavMeshAgent.SetDestination(Player.transform.position);
+        agent.SetDestination(Player.transform.position);
     }*/
+    void FaceTarget()
+    {
+        Vector3 direction = (Player.position - transform.position).normalized;
+        Quaternion lookRotation = Quaternion.LookRotation(new Vector3(direction.x, 0, direction.z));
+        transform.rotation = Quaternion.Slerp(transform.rotation, lookRotation, Time.deltaTime * 5f);
+    }
 }
