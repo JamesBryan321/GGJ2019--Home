@@ -1,14 +1,18 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Die : MonoBehaviour
 {
-    /*AudioSource hurt;
-    public bool Alive;
 
-    public void Death()
+
+
+   public void OnCollisionEnter(Collision collision)
     {
-        hurt.Play();
-    }*/
+        if(collision.gameObject.tag == "death")
+        {
+            SceneManager.LoadScene("SampleScene");
+        }
+    }
 }

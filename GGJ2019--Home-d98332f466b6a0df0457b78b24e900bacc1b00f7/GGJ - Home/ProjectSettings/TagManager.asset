@@ -11,6 +11,9 @@ TagManager:
   - Ladder_Bottom
   - Trap
   - Mouse
+  - death
+  - win
+  - start
   layers:
   - Default
   - TransparentFX
