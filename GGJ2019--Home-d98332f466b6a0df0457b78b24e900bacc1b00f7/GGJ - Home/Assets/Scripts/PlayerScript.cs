@@ -1,6 +1,5 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
-using Ladder.Scripts;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
@@ -20,7 +19,7 @@ public class PlayerScript : MonoBehaviour
          
     {
         anim = GetComponent<Animator>();
-        start.enabled = false;
+        start.enabled = true;
     }
 
     // Update is called once per frame
@@ -46,7 +45,7 @@ public class PlayerScript : MonoBehaviour
         }
         if(other.gameObject.tag == "start")
         {
-            start.enabled = true;
+            start.enabled = false;
         }
     }
 
