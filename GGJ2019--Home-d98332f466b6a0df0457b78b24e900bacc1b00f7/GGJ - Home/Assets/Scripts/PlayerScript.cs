@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
+using UnityStandardAssets.Characters.FirstPerson;
 
 public class PlayerScript : MonoBehaviour
 {
@@ -31,6 +32,8 @@ public class PlayerScript : MonoBehaviour
         if (other.gameObject.tag == "small")
         {
             anim.SetBool("small" , true);
+            FirstPersonController.m_WalkSpeed = 1;
+            FirstPersonController.m_RunSpeed = 2;
         }
         if(other.gameObject.tag == "death")
         {
