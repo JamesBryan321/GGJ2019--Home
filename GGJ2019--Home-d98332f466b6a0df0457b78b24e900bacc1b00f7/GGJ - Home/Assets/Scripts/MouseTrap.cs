@@ -6,6 +6,8 @@ public class MouseTrap : MonoBehaviour
 {
     public Animator anim;
 
+
+    public GameObject mouse;
     void Start()
     {
         anim = GetComponent<Animator>();
@@ -16,17 +18,26 @@ public class MouseTrap : MonoBehaviour
         if (other.tag == "Player")
         {
             anim.SetTrigger("Fall");
+            StartCoroutine("MyMethod");
+            Destroy(mouse);
         }
         
+        
+    }
+
+    IEnumerator MyMethod()
+    {
+        yield return new WaitForSeconds(4f);
     }
 
     private void OnCollisionEnter(Collision other)
     {
         if (other.gameObject.tag == "Mouse")
         {
+            Destroy(gameObject);
             Debug.Log("Snap!");
             anim.SetTrigger("Snap");
-            Destroy(gameObject);
+            
         }
     }
 }

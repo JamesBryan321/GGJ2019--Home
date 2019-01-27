@@ -48,6 +48,15 @@ public class MouseScript : MonoBehaviour
         }
     
     }
+    
+    private void OnTriggerEnter(Collider other)
+    {
+        //if (other.tag == "Trap")
+        //{
+            Destroy(this.gameObject);
+        //}
+        
+    }
 
 
     /*public void Attack()
