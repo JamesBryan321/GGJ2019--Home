@@ -17,8 +17,14 @@ public class MouseTrap : MonoBehaviour
         {
             anim.SetTrigger("Fall");
         }
-        else if (other.tag == "Mouse")
+        
+    }
+
+    private void OnCollisionEnter(Collision other)
+    {
+        if (other.gameObject.tag == "Mouse")
         {
+            Debug.Log("Snap!");
             anim.SetTrigger("Snap");
             Destroy(gameObject);
         }

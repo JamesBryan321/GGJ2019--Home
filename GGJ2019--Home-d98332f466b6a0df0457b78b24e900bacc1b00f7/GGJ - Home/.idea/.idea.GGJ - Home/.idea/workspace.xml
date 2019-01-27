@@ -27,11 +27,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/MouseScript.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="579">
-              <caret line="40" column="58" lean-forward="true" selection-start-line="40" selection-start-column="58" selection-end-line="40" selection-end-column="58" />
+            <state relative-caret-position="399">
+              <caret line="40" column="58" selection-start-line="40" selection-start-column="58" selection-end-line="40" selection-end-column="58" />
               <folding>
                 <marker date="1548546964133" expanded="true" signature="6:100" ph="..." />
                 <marker date="1548546964133" expanded="true" signature="142:1666" ph="{...}" />
@@ -109,18 +109,19 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/MouseTrap.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="21" column="36" lean-forward="true" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
+            <state relative-caret-position="300">
+              <caret line="22" column="50" lean-forward="true" selection-start-line="22" selection-start-column="50" selection-end-line="22" selection-end-column="50" />
               <folding>
-                <marker date="1548546550121" expanded="false" signature="6:78" ph="..." />
-                <marker date="1548546550121" expanded="true" signature="118:472" ph="{...}" />
-                <marker date="1548546550121" expanded="true" signature="164:217" ph="{...}" />
-                <marker date="1548546550121" expanded="true" signature="270:470" ph="{...}" />
-                <marker date="1548546550121" expanded="true" signature="311:368" ph="{...}" />
-                <marker date="1548546550121" expanded="true" signature="407:464" ph="{...}" />
+                <marker date="1548549094554" expanded="false" signature="6:78" ph="..." />
+                <marker date="1548549094554" expanded="true" signature="118:616" ph="{...}" />
+                <marker date="1548549094554" expanded="true" signature="164:217" ph="{...}" />
+                <marker date="1548549094554" expanded="true" signature="270:383" ph="{...}" />
+                <marker date="1548549094554" expanded="true" signature="311:368" ph="{...}" />
+                <marker date="1548549094554" expanded="true" signature="435:614" ph="{...}" />
+                <marker date="1548549094554" expanded="true" signature="486:608" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -145,8 +146,8 @@
         <option value="$PROJECT_DIR$/Assets/Standard Assets/Characters/FirstPersonCharacter/Scripts/FirstPersonController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerScript.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/FirstPersonController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/MouseTrap.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MouseScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MouseTrap.cs" />
       </list>
     </option>
   </component>
@@ -155,7 +156,7 @@
       <facet id="riderModule/invalid/Default Android Facet" />
     </ignored-facets>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="950" />
     <option name="width" value="980" />
     <option name="height" value="1040" />
@@ -226,7 +227,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9821000" />
+    <option name="totallyTimeSpent" value="11774000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -378,25 +379,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/MouseTrap.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="21" column="36" lean-forward="true" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
-          <folding>
-            <marker date="1548546550121" expanded="false" signature="6:78" ph="..." />
-            <marker date="1548546550121" expanded="true" signature="118:472" ph="{...}" />
-            <marker date="1548546550121" expanded="true" signature="164:217" ph="{...}" />
-            <marker date="1548546550121" expanded="true" signature="270:470" ph="{...}" />
-            <marker date="1548546550121" expanded="true" signature="311:368" ph="{...}" />
-            <marker date="1548546550121" expanded="true" signature="407:464" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/MouseScript.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="579">
-          <caret line="40" column="58" lean-forward="true" selection-start-line="40" selection-start-column="58" selection-end-line="40" selection-end-column="58" />
+        <state relative-caret-position="399">
+          <caret line="40" column="58" selection-start-line="40" selection-start-column="58" selection-end-line="40" selection-end-column="58" />
           <folding>
             <marker date="1548546964133" expanded="true" signature="6:100" ph="..." />
             <marker date="1548546964133" expanded="true" signature="142:1666" ph="{...}" />
@@ -408,6 +394,22 @@
             <marker date="1548546964133" expanded="true" signature="1065:1159" ph="{...}" />
             <marker date="1548546964133" expanded="true" signature="1187:1348" ph="/* public void Attack() ... */" />
             <marker date="1548546964133" expanded="true" signature="1370:1664" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/MouseTrap.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="22" column="50" lean-forward="true" selection-start-line="22" selection-start-column="50" selection-end-line="22" selection-end-column="50" />
+          <folding>
+            <marker date="1548549094554" expanded="false" signature="6:78" ph="..." />
+            <marker date="1548549094554" expanded="true" signature="118:616" ph="{...}" />
+            <marker date="1548549094554" expanded="true" signature="164:217" ph="{...}" />
+            <marker date="1548549094554" expanded="true" signature="270:383" ph="{...}" />
+            <marker date="1548549094554" expanded="true" signature="311:368" ph="{...}" />
+            <marker date="1548549094554" expanded="true" signature="435:614" ph="{...}" />
+            <marker date="1548549094554" expanded="true" signature="486:608" ph="{...}" />
           </folding>
         </state>
       </provider>
